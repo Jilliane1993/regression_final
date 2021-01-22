@@ -2,7 +2,8 @@
 
 
 **Description**
-In my Metis linear regression project I created models for predicting the IMDB score for horror movies with a female audience. I focused on creating models for 3 potential use cases for the models; predicting the score of a film already released, a film that has not yet been released, and a film that is still in the pitching or pre-production stages. My final models used GridSearchCV with Ridge Regression, however I also used GridSearchCV with Lasso Regression to view my most important features for each model. 
+In my Metis linear regression project I created models for predicting the IMDB score for horror movies with a female audience. I focused on creating models for 3 potential use cases for the models; predicting the score of a film already released, a film that has not yet been released, and a film that is still in the pitching or pre-production stages. My final models used GridSearchCV with Ridge Regression, however I also used GridSearchCV with Lasso Regression to view my most important features for each model.
+
 **Features and Target Variables**
 Target Variable
 - Women's IMDB Score
@@ -26,9 +27,11 @@ Features
 - Categorical Features not yet incorportated to model
     - Stars
     - Country of origin
-**Data Used (e.g., NYC Open Data)**
+    
+**Data Used**
 - IMDB Horror Movies with 10,000 or more votes
-**Tools Used (e.g., Scrapy, Seaborn, etc.)**
+
+**Tools Used**
 - BeautifulSoup
 - Seaborn
 - Pandas
@@ -37,7 +40,8 @@ Features
 - Ridge Regression
 - Robust Scaler
 - Standard Scaler
-**Possible impacts of your project**
+
+**Possible impacts**
 
 Depending on the use these models could be use to predict potential positive audience response for adding a movie to a streaming service, screening a new movie at a theater, or when determining to fund a pitch movie. 
 
@@ -64,10 +68,10 @@ Webscraping
     - Murder_tag.ipynb
     
 - Scraping votes tables
-    -Tablescrape.ipynb
+    - Tablescrape.ipynb
     
 - Merging scraping dataframes and most of EDA
-    -Page_Scraping_And_EDA.ipynb
+    - Page_Scraping_And_EDA.ipynb
     
 Testing Models with Different Features
 
@@ -83,5 +87,5 @@ Testing Models with Different Features
 - Modeling for Movies in pitching or pre-produciton stages
     - Modeling_with_female_predictors.ipynb
     
--Modeling for pre-production with Male IMDB Score target
-    -Modeling_with_male_predictors.ipynb
+- Modeling for pre-production with Male IMDB Score target
+    - Modeling_with_male_predictors.ipynb
